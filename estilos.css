@@ -1,0 +1,102 @@
+* {
+    background-color: #87CEEB;
+}
+
+h1 {
+    color: #0066cc;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h1:hover {
+    color: #004080;
+}
+
+h2 {
+    color: #00008B;
+}
+
+table {
+    background-color: #f2f2f2;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #462CE4;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+td:hover {
+    background-color: #ffff99;
+}
+
+th:hover {
+    background-color: #E36C0A;
+}
+
+#formularioTitulo {
+    color: green;
+    margin-top: 20px;
+}
+
+#Formulario {
+    margin-top: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    color: green;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #7FFF00;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4CAF50;
+}
+
+img {
+    vertical-align: top;
+}
+
+video {
+    margin-top: 20px; 
+}
